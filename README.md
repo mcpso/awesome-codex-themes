@@ -2,6 +2,16 @@
 
 > A curated list of themes, skins, galleries, and theming tools for [OpenAI Codex](https://developers.openai.com/codex/) — the Codex CLI, the Codex desktop app, and the Codex IDE extension.
 
+<div align="center">
+
+<h2 id="codexthemes"><a href="https://codexthemes.ai">CodexThemes</a></h2>
+<p><strong>Discover a large collection of beautiful themes and skins for the Codex desktop app.</strong></p>
+<p><a href="https://codexthemes.ai"><strong>Explore CodexThemes →</strong></a></p>
+
+</div>
+
+---
+
 Codex theming happens on three surfaces:
 
 1. **Codex CLI (terminal TUI)** — 32 bundled syntax themes, switched with the `/theme` slash command (live preview) or `tui.theme = "..."` in `~/.codex/config.toml`. Custom themes are standard TextMate `.tmTheme` files dropped into `$CODEX_HOME/themes/` — thousands of existing Sublime Text / TextMate color schemes work out of the box.
@@ -10,6 +20,7 @@ Codex theming happens on three surfaces:
 
 ## Contents
 
+- [CodexThemes](#codexthemes)
 - [Official Resources](#official-resources)
 - [How Theming Works](#how-theming-works)
 - [Codex CLI Themes](#codex-cli-themes)
@@ -150,10 +161,14 @@ Runtime skinning of the Codex desktop app via local CDP injection — no officia
 
 Theme shares and theming moments worth knowing:
 
+- [@joyforjoker43 — Codex skin showcase roundup](https://x.com/joyforjoker43/status/2077573173294563615) — Chinese-language roundup of branded, fandom, and anime-style Codex skins, plus ideas for turning customized Codex setups into products.
 - [@dkundel (OpenAI Codex team) — Catppuccin × Comic Sans](https://x.com/dkundel/status/2032224113025302535) — The canonical `codex-theme-v1:` share-string example: Catppuccin base, custom colors, Comic Sans font overrides. "Probably good that I didn't become a designer 😂"
 - [@dkundel — Raycast partner theme](https://x.com/dkundel/status/2037552817385467967) — Pairing Codex with the matching Raycast theme; "the dark mode one looks pretty fresh 👀".
 - [@_chenglou — Mariana for Codex](https://x.com/_chenglou/status/2032587449927671994) — Ready-to-import port of Sublime Text's Mariana theme, overriding the One theme id to work around the importer restriction.
 - [@testingcatalog — theming launch coverage](https://x.com/testingcatalog/status/2032226272152043910) — Coverage of OpenAI releasing Themes for the Codex app with partner themes.
+- [@xjstxn — early Codex theme switcher](https://x.com/xjstxn/status/2021847462609400239) — Launch post and visual preview for the now-historical [jstxn/codex-themes](https://github.com/jstxn/codex-themes) launcher.
+
+Machine-readable metadata for these posts lives in [`data/x-posts.json`](data/x-posts.json); see the [data notes](data/README.md) for collection rules.
 
 ## Ports to Other Editors
 
