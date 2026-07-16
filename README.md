@@ -74,19 +74,34 @@ The app ships built-in classics (Catppuccin, Monokai, Solarized) plus official p
 
 - [DexThemes](https://www.dexthemes.com/) — Community site to discover and create Codex themes: searchable catalog, dark/light preview with accent controls, copyable import strings. By [@daeshawn](https://x.com/daeshawn).
 - [samuxbuilds/codex-themes](https://github.com/samuxbuilds/codex-themes) — Interactive gallery of 1000+ themes with live preview and one-click export ([live site](https://codex.instantlandingpages.xyz)): editor presets (Dracula, Nord, Tokyo Night, GitHub), brand palettes (Vercel, Stripe, Linear), color families, gradients, and accessibility/WCAG variants. `MIT`
+
+  <img src="images/samuxbuilds-codex-themes/gallery.png" width="560" alt="samuxbuilds codex-themes gallery">
+
 - [shaw-baobao/codex-themes](https://github.com/shaw-baobao/codex-themes) — Curated Codex app themes with previews and ready-to-import strings; each theme ships `theme.json` + `preview.svg` + `import.txt`, with a JSON schema and build scripts. English/中文. `MIT`
+
+  | | | |
+  |---|---|---|
+  | <img src="images/shaw-baobao-codex-themes/codex-dark.svg" width="260" alt="Codex Dark"><br><sub>Codex Dark</sub> | <img src="images/shaw-baobao-codex-themes/tokyo-night.svg" width="260" alt="Tokyo Night"><br><sub>Tokyo Night</sub> | <img src="images/shaw-baobao-codex-themes/catppuccin-mocha.svg" width="260" alt="Catppuccin Mocha"><br><sub>Catppuccin Mocha</sub> |
+  | <img src="images/shaw-baobao-codex-themes/dracula.svg" width="260" alt="Dracula"><br><sub>Dracula</sub> | <img src="images/shaw-baobao-codex-themes/nord.svg" width="260" alt="Nord"><br><sub>Nord</sub> | <img src="images/shaw-baobao-codex-themes/rose-pine.svg" width="260" alt="Rosé Pine"><br><sub>Rosé Pine</sub> |
+
 - [lafllamme/codex-themes](https://github.com/lafllamme/codex-themes) — TypeScript toolkit that converts raw terminal palettes (e.g. `.itermcolors` from iTerm2-Color-Schemes) into Codex-compatible JSON presets, with a [browsable site](https://codex-theme.pages.dev/). `MIT`
 - [Kronosnxs/codex-theme-builder](https://github.com/Kronosnxs/codex-theme-builder) — Single-file web app for building and exporting custom Codex theme strings: tune light and dark variants, preview instantly, copy a ready-to-import string. `MIT`
+
+  <img src="images/codex-theme-builder/builder.png" width="560" alt="Codex theme builder web app">
 - [Utility Materials for Codex](https://themes.utility.materials.nyc/themes/codex/) — Dark mineral surfaces with warm sand text; ships theme `.json` payloads plus paste-ready `codex-theme-v1:` import strings.
 
 ### Individual Themes
 
 - [miniLV/Anthropic-codex-theme](https://github.com/miniLV/Anthropic-codex-theme) — Anthropic-style light & dark themes, one-click import. `MIT`
+
+  <img src="images/anthropic-codex-theme/anthropic.jpg" width="560" alt="Anthropic-style Codex theme">
 - [chainshieldai/codex-cobalt-gold-theme](https://github.com/chainshieldai/codex-cobalt-gold-theme) — Cobalt2-inspired Codex desktop theme with safe runtime Markdown styling. `MIT`
 - [zh1665/cobalt-for-codex](https://github.com/zh1665/cobalt-for-codex) — Cobalt theme installer for Codex Desktop on Windows. `MIT`
 - [ziyue67/midnight-purple-2077-codex-theme](https://github.com/ziyue67/midnight-purple-2077-codex-theme) — High-contrast dark purple theme inspired by VS Code's Midnight Purple 2077, optimized for Chinese UI fonts.
 - [alexh/umi-codex-theme](https://github.com/alexh/umi-codex-theme) — "Umi", a single hand-crafted Codex theme.
 - [hsnovel/codex-theme](https://github.com/hsnovel/codex-theme) — Simple high-contrast theme that is easy on the eyes. `GPL-3.0`
+
+  <img src="images/hsnovel-codex-theme/preview.png" width="560" alt="hsnovel high-contrast Codex theme">
 - [leiniaozl229/codex-claude-theme](https://github.com/leiniaozl229/codex-claude-theme) — Local macOS Codex theme patcher with a Claude-inspired visual style. `MIT`
 - [LiteraryUniverse/omarchy-codex-theme](https://github.com/LiteraryUniverse/omarchy-codex-theme) — Omarchy-styled Codex theme.
 
@@ -94,17 +109,42 @@ The app ships built-in classics (Catppuccin, Monokai, Solarized) plus official p
 
 Runtime skinning of the Codex desktop app via local CDP injection — no official binary or signature modification.
 
+- [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) ⭐3.5k — External skins for the Codex desktop app; swap in any image as a full-window mood background while sidebar, cards, and input stay native. Ships 8 example skins, one-click restore, macOS + Windows installers. `MIT`
+
+  | | |
+  |---|---|
+  | <img src="images/codex-dream-skin/skin-01.jpg" width="400" alt="Pink Custom"><br><sub>Pink Custom</sub> | <img src="images/codex-dream-skin/skin-02.jpg" width="400" alt="God of Wealth"><br><sub>God of Wealth</sub> |
+  | <img src="images/codex-dream-skin/skin-03.jpg" width="400" alt="Red-White Sci-Fi"><br><sub>Red-White Sci-Fi</sub> | <img src="images/codex-dream-skin/skin-04.jpg" width="400" alt="Clear Custom"><br><sub>Clear Custom</sub> |
+  | <img src="images/codex-dream-skin/skin-05.jpg" width="400" alt="Inspiration"><br><sub>Inspiration</sub> | <img src="images/codex-dream-skin/skin-06.jpg" width="400" alt="Purple Night"><br><sub>Purple Night</sub> |
+  | <img src="images/codex-dream-skin/skin-07.jpg" width="400" alt="Hatsune Miku"><br><sub>Hatsune Miku</sub> | <img src="images/codex-dream-skin/skin-08.jpg" width="400" alt="Stage Black-Gold"><br><sub>Stage Black-Gold</sub> |
+
 - [CodeDrobe/codex-skill](https://github.com/CodeDrobe/codex-skill) ⭐88 — Open-source Codex theming Skill, AI theme generator, and cross-platform runtime for custom desktop themes; exports shareable `.codex-theme` files. Install with `npx skills add anhao/codedrobe-codex-skill`. macOS/Windows. `Apache-2.0`
+
+  | | |
+  |---|---|
+  | <img src="images/codedrobe/desktop.jpg" width="400" alt="CodeDrobe desktop app"><br><sub>CodeDrobe Desktop</sub> | <img src="images/codedrobe/codex-01.jpg" width="400" alt="KUN Stage theme"><br><sub>KUN Stage theme</sub> |
+
 - [HeiGeAi/heige-codex-skin-studio](https://github.com/HeiGeAi/heige-codex-skin-studio) ⭐82 — One-click skin switcher for Codex Desktop: "one image = one theme," 9 presets (Hatsune Miku, Genshin Impact, Wuthering Waves, Naruto, Love & Deepspace) plus color extraction from any custom image. English/中文. `MIT`
-- [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) ⭐3.5k — External skins for the Codex desktop app; swap in any image as a full-window mood background while sidebar, cards, and input stay native. Ships 8 example skins (Pink Custom, God of Wealth, Red-White Sci-Fi, Clear Custom, Inspiration, Purple Night, Hatsune Miku, Stage Black-Gold), one-click restore, macOS + Windows installers. `MIT`
+
+  | | |
+  |---|---|
+  | <img src="images/heige-skin-studio/miku-switcher-live.jpg" width="400" alt="Miku theme with switcher menu"><br><sub>Hatsune Miku + switcher</sub> | <img src="images/heige-skin-studio/genshin-night-live.jpg" width="400" alt="Genshin starry night theme"><br><sub>Genshin starry night</sub> |
+
 - [aiwenjie777/codex-skin-switcher](https://github.com/aiwenjie777/codex-skin-switcher) ⭐18 — Codex skin manager (中文).
+
+  <img src="images/codex-skin-switcher/skin-09.jpg" width="560" alt="codex-skin-switcher preview">
+
 - [kongxcer555/codex-skin-builder](https://github.com/kongxcer555/codex-skin-builder) — A Codex Skill for building and customizing Codex skins. `MIT`
+
+  <img src="images/codex-skin-builder/cloud-crane-study.jpg" width="560" alt="Cloud Crane Study skin">
 - [z0rgoyok/codex-theme-controller](https://github.com/z0rgoyok/codex-theme-controller) — macOS utility that applies color themes to Codex via the Chrome DevTools Protocol.
 - [Alhamdulillah-R/cyberpunk-codex-skin](https://github.com/Alhamdulillah-R/cyberpunk-codex-skin) — Cyberpunk/Edgerunners-flavored skin.
 
 ### Historical
 
 - [jstxn/codex-themes](https://github.com/jstxn/codex-themes) — macOS launcher that ran Codex with an in-app theme button and 16 bundled themes (Ayu Mirage, Catppuccin, Dracula, Everforest, Flexoki, Gruvbox, Monokai Pro, Nightfox, Nord, Sonokai, TokyoNight Storm…), from before official theming support. Now deprecated by its author, but the minimal 4-field theme JSON remains a nice reference.
+
+  <img src="images/jstxn-codex-themes/picker.png" width="560" alt="jstxn codex-themes picker">
 
 ## Shared on X (Twitter)
 
@@ -140,3 +180,5 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this work.
+
+Theme preview images under [`images/`](images/) are sourced from their respective upstream projects and remain the property of their authors; they are reproduced here for identification and preview purposes only.

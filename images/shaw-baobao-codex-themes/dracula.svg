@@ -1,0 +1,47 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="800" rx="32" fill="#282a36"/>
+  <rect x="44" y="44" width="1192" height="712" rx="28" fill="#44475a" stroke="#f8f8f2" stroke-opacity="0.12"/>
+  <rect x="44" y="44" width="1192" height="92" rx="28" fill="#f8f8f2" fill-opacity="0.06"/>
+  <circle cx="96" cy="90" r="12" fill="#bd93f9"/>
+  <circle cx="132" cy="90" r="12" fill="#f8f8f2" fill-opacity="0.24"/>
+  <circle cx="168" cy="90" r="12" fill="#f8f8f2" fill-opacity="0.14"/>
+  <text x="212" y="98" fill="#f8f8f2" font-family="SF Mono, Menlo, monospace" font-size="28">dracula</text>
+  <text x="88" y="214" fill="#f8f8f2" fill-opacity="0.56" font-family="SF Mono, Menlo, monospace" font-size="20">CODEX APP THEME</text>
+  <text x="88" y="282" fill="#f8f8f2" font-family="SF Mono, Menlo, monospace" font-size="58" font-weight="700">Dracula</text>
+  <text x="88" y="334" fill="#bd93f9" font-family="SF Mono, Menlo, monospace" font-size="24">DARK  /  contrast 55</text>
+  <text x="88" y="388" fill="#f8f8f2" fill-opacity="0.76" font-family="SF Mono, Menlo, monospace" font-size="24">Dracula adapted for Codex App with vivid purple accents and high contrast.</text>
+  <text x="88" y="430" fill="#f8f8f2" fill-opacity="0.52" font-family="SF Mono, Menlo, monospace" font-size="18">dark  •  purple  •  neon</text>
+  <rect x="88" y="490" width="540" height="178" rx="24" fill="#282a36" stroke="#f8f8f2" stroke-opacity="0.1"/>
+  <text x="120" y="546" fill="#bd93f9" font-family="SF Mono, Menlo, monospace" font-size="22">import codex-theme-v1</text>
+  <text x="120" y="596" fill="#f8f8f2" font-family="SF Mono, Menlo, monospace" font-size="20">fonts.ui   = SF Pro Text</text>
+  <text x="120" y="632" fill="#f8f8f2" font-family="SF Mono, Menlo, monospace" font-size="20">fonts.code = SF Mono</text>
+  <text x="120" y="668" fill="#f8f8f2" fill-opacity="0.62" font-family="SF Mono, Menlo, monospace" font-size="18">Generated from theme.json</text>
+  <g transform="translate(680 488)">
+    
+  <g transform="translate(0 0)">
+    <rect width="224" height="132" rx="22" fill="#282a36" stroke="#f8f8f2" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#f8f8f2" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">background</text>
+    <text x="24" y="88" fill="#f8f8f2" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#282a36</text>
+  </g>
+    
+  <g transform="translate(244 0)">
+    <rect width="224" height="132" rx="22" fill="#44475a" stroke="#f8f8f2" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#f8f8f2" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">surface</text>
+    <text x="24" y="88" fill="#f8f8f2" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#44475a</text>
+  </g>
+  </g>
+  <g transform="translate(680 636)">
+    
+  <g transform="translate(0 0)">
+    <rect width="224" height="132" rx="22" fill="#bd93f9" stroke="#f8f8f2" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#f8f8f2" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">accent</text>
+    <text x="24" y="88" fill="#f8f8f2" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#bd93f9</text>
+  </g>
+    
+  <g transform="translate(244 0)">
+    <rect width="224" height="132" rx="22" fill="#f8f8f2" stroke="#282a36" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#282a36" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">foreground</text>
+    <text x="24" y="88" fill="#282a36" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#f8f8f2</text>
+  </g>
+  </g>
+</svg>

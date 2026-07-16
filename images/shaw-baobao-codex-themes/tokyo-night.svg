@@ -1,0 +1,47 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="800" rx="32" fill="#1a1b26"/>
+  <rect x="44" y="44" width="1192" height="712" rx="28" fill="#24283b" stroke="#c0caf5" stroke-opacity="0.12"/>
+  <rect x="44" y="44" width="1192" height="92" rx="28" fill="#c0caf5" fill-opacity="0.06"/>
+  <circle cx="96" cy="90" r="12" fill="#7aa2f7"/>
+  <circle cx="132" cy="90" r="12" fill="#c0caf5" fill-opacity="0.24"/>
+  <circle cx="168" cy="90" r="12" fill="#c0caf5" fill-opacity="0.14"/>
+  <text x="212" y="98" fill="#c0caf5" font-family="SF Mono, Menlo, monospace" font-size="28">tokyo-night</text>
+  <text x="88" y="214" fill="#c0caf5" fill-opacity="0.56" font-family="SF Mono, Menlo, monospace" font-size="20">CODEX APP THEME</text>
+  <text x="88" y="282" fill="#c0caf5" font-family="SF Mono, Menlo, monospace" font-size="58" font-weight="700">Tokyo Night</text>
+  <text x="88" y="334" fill="#7aa2f7" font-family="SF Mono, Menlo, monospace" font-size="24">DARK  /  contrast 52</text>
+  <text x="88" y="388" fill="#c0caf5" fill-opacity="0.76" font-family="SF Mono, Menlo, monospace" font-size="24">Tokyo Night adapted for Codex App with a soft blue accent.</text>
+  <text x="88" y="430" fill="#c0caf5" fill-opacity="0.52" font-family="SF Mono, Menlo, monospace" font-size="18">dark  •  blue  •  popular</text>
+  <rect x="88" y="490" width="540" height="178" rx="24" fill="#1a1b26" stroke="#c0caf5" stroke-opacity="0.1"/>
+  <text x="120" y="546" fill="#7aa2f7" font-family="SF Mono, Menlo, monospace" font-size="22">import codex-theme-v1</text>
+  <text x="120" y="596" fill="#c0caf5" font-family="SF Mono, Menlo, monospace" font-size="20">fonts.ui   = SF Pro Text</text>
+  <text x="120" y="632" fill="#c0caf5" font-family="SF Mono, Menlo, monospace" font-size="20">fonts.code = SF Mono</text>
+  <text x="120" y="668" fill="#c0caf5" fill-opacity="0.62" font-family="SF Mono, Menlo, monospace" font-size="18">Generated from theme.json</text>
+  <g transform="translate(680 488)">
+    
+  <g transform="translate(0 0)">
+    <rect width="224" height="132" rx="22" fill="#1a1b26" stroke="#c0caf5" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#c0caf5" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">background</text>
+    <text x="24" y="88" fill="#c0caf5" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#1a1b26</text>
+  </g>
+    
+  <g transform="translate(244 0)">
+    <rect width="224" height="132" rx="22" fill="#24283b" stroke="#c0caf5" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#c0caf5" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">surface</text>
+    <text x="24" y="88" fill="#c0caf5" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#24283b</text>
+  </g>
+  </g>
+  <g transform="translate(680 636)">
+    
+  <g transform="translate(0 0)">
+    <rect width="224" height="132" rx="22" fill="#7aa2f7" stroke="#c0caf5" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#c0caf5" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">accent</text>
+    <text x="24" y="88" fill="#c0caf5" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#7aa2f7</text>
+  </g>
+    
+  <g transform="translate(244 0)">
+    <rect width="224" height="132" rx="22" fill="#c0caf5" stroke="#1a1b26" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#1a1b26" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">foreground</text>
+    <text x="24" y="88" fill="#1a1b26" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#c0caf5</text>
+  </g>
+  </g>
+</svg>
