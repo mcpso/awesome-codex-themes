@@ -161,7 +161,11 @@ Runtime skinning of the Codex desktop app via local CDP injection — no officia
 
 Theme shares and theming moments worth knowing:
 
+- [@liyue_ai — Codex skin transformation showcase](https://x.com/liyue_ai/status/2077676358734614758) — Before-and-after style showcase demonstrating how dramatically a skin can change the character of the Codex desktop app.
+- [@vista8 — prompt-driven skin workflow](https://x.com/vista8/status/2077660576655032678) — A compact recipe for asking Codex to read the Dream Skin repository, generate artwork with its built-in image tool, and apply a new theme.
+- [@cnyzgkc — open-source skin tool spotlight](https://x.com/cnyzgkc/status/2077584412351586535) — Chinese-language introduction to Codex Dream Skin, its agent-assisted installation workflow, and the emerging custom-skin market.
 - [@joyforjoker43 — Codex skin showcase roundup](https://x.com/joyforjoker43/status/2077573173294563615) — Chinese-language roundup of branded, fandom, and anime-style Codex skins, plus ideas for turning customized Codex setups into products.
+- [@ianneo_ai — themes as a product opportunity](https://x.com/ianneo_ai/status/2077558478273712568) — Commentary on Codex themes as a simple product category that could extend to reskinning other popular software.
 - [@dkundel (OpenAI Codex team) — Catppuccin × Comic Sans](https://x.com/dkundel/status/2032224113025302535) — The canonical `codex-theme-v1:` share-string example: Catppuccin base, custom colors, Comic Sans font overrides. "Probably good that I didn't become a designer 😂"
 - [@dkundel — Raycast partner theme](https://x.com/dkundel/status/2037552817385467967) — Pairing Codex with the matching Raycast theme; "the dark mode one looks pretty fresh 👀".
 - [@_chenglou — Mariana for Codex](https://x.com/_chenglou/status/2032587449927671994) — Ready-to-import port of Sublime Text's Mariana theme, overriding the One theme id to work around the importer restriction.

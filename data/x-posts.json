@@ -1,5 +1,59 @@
 [
   {
+    "post_id": "2077676358734614758",
+    "url": "https://x.com/liyue_ai/status/2077676358734614758",
+    "author": {
+      "name": "李岳",
+      "handle": "liyue_ai"
+    },
+    "published_at": "2026-07-16",
+    "language": "zh",
+    "kind": "skin-showcase",
+    "summary": "Chinese-language showcase demonstrating how dramatically a skin can change the character of the Codex desktop app, with an installation link.",
+    "related_projects": [
+      "https://github.com/Fei-Away/Codex-Dream-Skin"
+    ],
+    "has_media": true,
+    "verified_via": "x-oembed",
+    "collected_at": "2026-07-17"
+  },
+  {
+    "post_id": "2077660576655032678",
+    "url": "https://x.com/vista8/status/2077660576655032678",
+    "author": {
+      "name": "向阳乔木",
+      "handle": "vista8"
+    },
+    "published_at": "2026-07-16",
+    "language": "zh",
+    "kind": "skin-workflow",
+    "summary": "Shares a simple prompt-driven workflow: ask Codex to read the skin repository, generate artwork with its built-in image tool, and apply a new theme.",
+    "related_projects": [
+      "https://github.com/Fei-Away/Codex-Dream-Skin"
+    ],
+    "has_media": true,
+    "verified_via": "x-oembed",
+    "collected_at": "2026-07-17"
+  },
+  {
+    "post_id": "2077584412351586535",
+    "url": "https://x.com/cnyzgkc/status/2077584412351586535",
+    "author": {
+      "name": "木马人",
+      "handle": "cnyzgkc"
+    },
+    "published_at": "2026-07-16",
+    "language": "zh",
+    "kind": "project-showcase",
+    "summary": "Highlights the open-source Codex skin tool, explains the agent-assisted installation workflow, and notes the emerging market for custom skin services.",
+    "related_projects": [
+      "https://github.com/Fei-Away/Codex-Dream-Skin"
+    ],
+    "has_media": true,
+    "verified_via": "x-oembed",
+    "collected_at": "2026-07-17"
+  },
+  {
     "post_id": "2077573173294563615",
     "url": "https://x.com/joyforjoker43/status/2077573173294563615",
     "author": {
@@ -14,6 +68,22 @@
     "has_media": true,
     "verified_via": "x-oembed",
     "collected_at": "2026-07-16"
+  },
+  {
+    "post_id": "2077558478273712568",
+    "url": "https://x.com/ianneo_ai/status/2077558478273712568",
+    "author": {
+      "name": "Ian (伊恩)",
+      "handle": "ianneo_ai"
+    },
+    "published_at": "2026-07-16",
+    "language": "zh",
+    "kind": "market-commentary",
+    "summary": "Discusses custom Codex themes as a simple product opportunity and suggests that the same reskinning model could extend to other popular software.",
+    "related_projects": [],
+    "has_media": true,
+    "verified_via": "x-oembed",
+    "collected_at": "2026-07-17"
   },
   {
     "post_id": "2037552817385467967",
@@ -98,4 +168,3 @@
     "collected_at": "2026-07-16"
   }
 ]
-
