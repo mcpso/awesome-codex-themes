@@ -1,0 +1,142 @@
+# Awesome Codex Themes [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> A curated list of themes, skins, galleries, and theming tools for [OpenAI Codex](https://developers.openai.com/codex/) — the Codex CLI, the Codex desktop app, and the Codex IDE extension.
+
+Codex theming happens on three surfaces:
+
+1. **Codex CLI (terminal TUI)** — 32 bundled syntax themes, switched with the `/theme` slash command (live preview) or `tui.theme = "..."` in `~/.codex/config.toml`. Custom themes are standard TextMate `.tmTheme` files dropped into `$CODEX_HOME/themes/` — thousands of existing Sublime Text / TextMate color schemes work out of the box.
+2. **Codex desktop app** — full appearance customization (base theme, accent/ink/surface colors, fonts, semantic diff colors) shipped in late March 2026. Themes travel as portable `codex-theme-v1:{...}` JSON strings, imported via **Settings → Appearance → Dark/Light Theme → Import**.
+3. **Skins (CDP injection)** — community tools inject CSS/artwork into the Codex desktop app at runtime over the local Chrome DevTools Protocol, enabling wallpaper-level customization far beyond color themes, without patching official binaries.
+
+## Contents
+
+- [Official Resources](#official-resources)
+- [How Theming Works](#how-theming-works)
+- [Codex CLI Themes](#codex-cli-themes)
+- [Codex App Themes](#codex-app-themes)
+  - [Galleries & Builders](#galleries--builders)
+  - [Individual Themes](#individual-themes)
+- [Skins & Deep Customization](#skins--deep-customization)
+- [Shared on X (Twitter)](#shared-on-x-twitter)
+- [Ports to Other Editors](#ports-to-other-editors)
+- [Articles & Guides](#articles--guides)
+- [Contributing](#contributing)
+
+## Official Resources
+
+- [openai/codex](https://github.com/openai/codex) — The official Codex CLI repository; TUI theming lives in `codex-rs/tui`.
+- [Codex Config Reference](https://developers.openai.com/codex/config-reference) — Official `config.toml` reference, including `tui.theme` and `tui.status_line`.
+- [Codex App Settings](https://developers.openai.com/codex/app/settings) — Official docs for the desktop app's appearance settings.
+- [Codex TUI Style Guide](https://github.com/openai/codex/blob/main/codex-rs/tui/styles.md) — The color/style conventions the Codex TUI itself follows.
+
+## How Theming Works
+
+### CLI: `.tmTheme` + `config.toml`
+
+```toml
+# ~/.codex/config.toml
+[tui]
+theme = "catppuccin-mocha"   # any bundled name, or a custom .tmTheme in ~/.codex/themes/
+```
+
+Type `/theme` inside Codex for a live-preview picker that persists your choice. Custom themes are plain TextMate `.tmTheme` files: place `my-theme.tmTheme` in `~/.codex/themes/` and set `theme = "my-theme"` (the kebab-case filename becomes the theme name).
+
+The CLI bundles 32 themes (defaults: `catppuccin-mocha` on dark terminals, `catppuccin-latte` on light):
+
+| Family | Theme names |
+| --- | --- |
+| Catppuccin | `catppuccin-mocha` · `catppuccin-latte` · `catppuccin-frappe` · `catppuccin-macchiato` |
+| Base16 | `base16` · `base16-256` · `base16-eighties-dark` · `base16-mocha-dark` · `base16-ocean-dark` · `base16-ocean-light` |
+| Monokai Extended | `monokai-extended` · `monokai-extended-bright` · `monokai-extended-light` · `monokai-extended-origin` |
+| Gruvbox | `gruvbox-dark` · `gruvbox-light` |
+| Solarized | `solarized-dark` · `solarized-light` |
+| One / Two | `one-half-dark` · `one-half-light` · `two-dark` |
+| Coldark | `coldark-cold` · `coldark-dark` |
+| GitHub | `github` · `inspired-github` |
+| Classics | `dracula` · `nord` · `zenburn` · `sublime-snazzy` · `dark-neon` · `1337` · `ansi` |
+
+### App: `codex-theme-v1` import strings
+
+Desktop app themes are JSON payloads prefixed with `codex-theme-v1:`. Fields include `codeThemeId`, `theme.accent`, `theme.ink` (text), `theme.surface` (background), `theme.contrast`, `theme.opaqueWindows`, `theme.fonts.{ui,code}`, `theme.semanticColors.{diffAdded,diffRemoved,skill}`, and `variant` (`dark`/`light`). Import via **Settings → Appearance → Dark/Light Theme → Import**.
+
+> **Gotcha:** `codeThemeId` must match a built-in id (`tokyo-night`, `one-dark`, `nord`, `dracula`, `catppuccin`, `gruvbox`, `solarized`, `github-light`, `matrix`, `one`) — unknown ids fail silently ([openai/codex#14766](https://github.com/openai/codex/issues/14766)). Theme authors work around this by reusing a built-in id and overriding all colors.
+
+The app ships built-in classics (Catppuccin, Monokai, Solarized) plus official partner themes including Linear, Notion, Raycast, and OpenClaw.
+
+## Codex CLI Themes
+
+- [ychampion/codex-themes](https://github.com/ychampion/codex-themes) — Open-source theme manager for Codex CLI: validates community themes, previews in the terminal, installs `.tmTheme` files, writes reversible `config.toml`, ships status-line presets, and exports matching palettes for Windows Terminal, iTerm2, Ghostty, and Alacritty. `MIT`
+- Any `.tmTheme` collection works too — e.g. the hundreds of schemes bundled with [bat](https://github.com/sharkdp/bat) or from [TextMate/Sublime theme galleries](https://tmtheme-editor.glitch.me/); drop the file into `~/.codex/themes/`.
+
+## Codex App Themes
+
+### Galleries & Builders
+
+- [DexThemes](https://www.dexthemes.com/) — Community site to discover and create Codex themes: searchable catalog, dark/light preview with accent controls, copyable import strings. By [@daeshawn](https://x.com/daeshawn).
+- [samuxbuilds/codex-themes](https://github.com/samuxbuilds/codex-themes) — Interactive gallery of 1000+ themes with live preview and one-click export ([live site](https://codex.instantlandingpages.xyz)): editor presets (Dracula, Nord, Tokyo Night, GitHub), brand palettes (Vercel, Stripe, Linear), color families, gradients, and accessibility/WCAG variants. `MIT`
+- [shaw-baobao/codex-themes](https://github.com/shaw-baobao/codex-themes) — Curated Codex app themes with previews and ready-to-import strings; each theme ships `theme.json` + `preview.svg` + `import.txt`, with a JSON schema and build scripts. English/中文. `MIT`
+- [lafllamme/codex-themes](https://github.com/lafllamme/codex-themes) — TypeScript toolkit that converts raw terminal palettes (e.g. `.itermcolors` from iTerm2-Color-Schemes) into Codex-compatible JSON presets, with a [browsable site](https://codex-theme.pages.dev/). `MIT`
+- [Kronosnxs/codex-theme-builder](https://github.com/Kronosnxs/codex-theme-builder) — Single-file web app for building and exporting custom Codex theme strings: tune light and dark variants, preview instantly, copy a ready-to-import string. `MIT`
+- [Utility Materials for Codex](https://themes.utility.materials.nyc/themes/codex/) — Dark mineral surfaces with warm sand text; ships theme `.json` payloads plus paste-ready `codex-theme-v1:` import strings.
+
+### Individual Themes
+
+- [miniLV/Anthropic-codex-theme](https://github.com/miniLV/Anthropic-codex-theme) — Anthropic-style light & dark themes, one-click import. `MIT`
+- [chainshieldai/codex-cobalt-gold-theme](https://github.com/chainshieldai/codex-cobalt-gold-theme) — Cobalt2-inspired Codex desktop theme with safe runtime Markdown styling. `MIT`
+- [zh1665/cobalt-for-codex](https://github.com/zh1665/cobalt-for-codex) — Cobalt theme installer for Codex Desktop on Windows. `MIT`
+- [ziyue67/midnight-purple-2077-codex-theme](https://github.com/ziyue67/midnight-purple-2077-codex-theme) — High-contrast dark purple theme inspired by VS Code's Midnight Purple 2077, optimized for Chinese UI fonts.
+- [alexh/umi-codex-theme](https://github.com/alexh/umi-codex-theme) — "Umi", a single hand-crafted Codex theme.
+- [hsnovel/codex-theme](https://github.com/hsnovel/codex-theme) — Simple high-contrast theme that is easy on the eyes. `GPL-3.0`
+- [leiniaozl229/codex-claude-theme](https://github.com/leiniaozl229/codex-claude-theme) — Local macOS Codex theme patcher with a Claude-inspired visual style. `MIT`
+- [LiteraryUniverse/omarchy-codex-theme](https://github.com/LiteraryUniverse/omarchy-codex-theme) — Omarchy-styled Codex theme.
+
+## Skins & Deep Customization
+
+Runtime skinning of the Codex desktop app via local CDP injection — no official binary or signature modification.
+
+- [CodeDrobe/codex-skill](https://github.com/CodeDrobe/codex-skill) ⭐88 — Open-source Codex theming Skill, AI theme generator, and cross-platform runtime for custom desktop themes; exports shareable `.codex-theme` files. Install with `npx skills add anhao/codedrobe-codex-skill`. macOS/Windows. `Apache-2.0`
+- [HeiGeAi/heige-codex-skin-studio](https://github.com/HeiGeAi/heige-codex-skin-studio) ⭐82 — One-click skin switcher for Codex Desktop: "one image = one theme," 9 presets (Hatsune Miku, Genshin Impact, Wuthering Waves, Naruto, Love & Deepspace) plus color extraction from any custom image. English/中文. `MIT`
+- [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) ⭐3.5k — External skins for the Codex desktop app; swap in any image as a full-window mood background while sidebar, cards, and input stay native. Ships 8 example skins (Pink Custom, God of Wealth, Red-White Sci-Fi, Clear Custom, Inspiration, Purple Night, Hatsune Miku, Stage Black-Gold), one-click restore, macOS + Windows installers. `MIT`
+- [aiwenjie777/codex-skin-switcher](https://github.com/aiwenjie777/codex-skin-switcher) ⭐18 — Codex skin manager (中文).
+- [kongxcer555/codex-skin-builder](https://github.com/kongxcer555/codex-skin-builder) — A Codex Skill for building and customizing Codex skins. `MIT`
+- [z0rgoyok/codex-theme-controller](https://github.com/z0rgoyok/codex-theme-controller) — macOS utility that applies color themes to Codex via the Chrome DevTools Protocol.
+- [Alhamdulillah-R/cyberpunk-codex-skin](https://github.com/Alhamdulillah-R/cyberpunk-codex-skin) — Cyberpunk/Edgerunners-flavored skin.
+
+### Historical
+
+- [jstxn/codex-themes](https://github.com/jstxn/codex-themes) — macOS launcher that ran Codex with an in-app theme button and 16 bundled themes (Ayu Mirage, Catppuccin, Dracula, Everforest, Flexoki, Gruvbox, Monokai Pro, Nightfox, Nord, Sonokai, TokyoNight Storm…), from before official theming support. Now deprecated by its author, but the minimal 4-field theme JSON remains a nice reference.
+
+## Shared on X (Twitter)
+
+Theme shares and theming moments worth knowing:
+
+- [@dkundel (OpenAI Codex team) — Catppuccin × Comic Sans](https://x.com/dkundel/status/2032224113025302535) — The canonical `codex-theme-v1:` share-string example: Catppuccin base, custom colors, Comic Sans font overrides. "Probably good that I didn't become a designer 😂"
+- [@dkundel — Raycast partner theme](https://x.com/dkundel/status/2037552817385467967) — Pairing Codex with the matching Raycast theme; "the dark mode one looks pretty fresh 👀".
+- [@_chenglou — Mariana for Codex](https://x.com/_chenglou/status/2032587449927671994) — Ready-to-import port of Sublime Text's Mariana theme, overriding the One theme id to work around the importer restriction.
+- [@testingcatalog — theming launch coverage](https://x.com/testingcatalog/status/2032226272152043910) — Coverage of OpenAI releasing Themes for the Codex app with partner themes.
+
+## Ports to Other Editors
+
+- [BXCQ/Codex-Theme-Collection](https://github.com/BXCQ/Codex-Theme-Collection) — Ports all official Codex UI themes to VS Code, faithfully reproducing accent, background, diff, and skill-highlight colors. `MIT`
+- [Codex Theme Collection (VS Code Marketplace)](https://marketplace.visualstudio.com/items?itemName=Xuanxi1111.codex-theme) — Codex-flavored VS Code themes such as `codex-tokyo-night` and `codex-github-dark`.
+
+## Articles & Guides
+
+- [Codex App Theming & Customisation](https://codex.danielvaughan.com/2026/03/30/codex-app-theming-customisation/) — Walkthrough of the app's appearance settings, partner themes, and the `codex-theme-v1` import format.
+- [Codex CLI TUI Customisation: Keymaps, Themes, Status Lines](https://codex.danielvaughan.com/2026/05/05/codex-cli-tui-customisation-keymaps-themes-status-lines/) — Guide to `/theme`, custom `.tmTheme` installation, status lines, and the rest of the TUI customization surface.
+
+### Issues worth watching
+
+- [openai/codex#14766](https://github.com/openai/codex/issues/14766) — Theme importer rejects custom `codeThemeId` values unless they match dropdown ids.
+- [openai/codex#21130](https://github.com/openai/codex/issues/21130) — Request: configure semantic TUI colors beyond syntax highlighting.
+- [openai/codex#1618](https://github.com/openai/codex/issues/1618) — The original "control over color theme in TUI" request (closed).
+
+## Contributing
+
+Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first, then open a pull request adding your theme or resource.
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this work.
