@@ -67,6 +67,7 @@ The app ships built-in classics (Catppuccin, Monokai, Solarized) plus official p
 ## Codex CLI Themes
 
 - [ychampion/codex-themes](https://github.com/ychampion/codex-themes) — Open-source theme manager for Codex CLI: validates community themes, previews in the terminal, installs `.tmTheme` files, writes reversible `config.toml`, ships status-line presets, and exports matching palettes for Windows Terminal, iTerm2, Ghostty, and Alacritty. `MIT`
+- [Nick2bad4u/codex-terminal-themes](https://github.com/Nick2bad4u/codex-terminal-themes) — Gallery, installer, picker, and diagnostic CLI for 200+ TextMate themes packaged specifically for Codex terminal syntax highlighting. `MIT`
 - Any `.tmTheme` collection works too — e.g. the hundreds of schemes bundled with [bat](https://github.com/sharkdp/bat) or from [TextMate/Sublime theme galleries](https://tmtheme-editor.glitch.me/); drop the file into `~/.codex/themes/`.
 
 ## Codex App Themes
@@ -86,6 +87,9 @@ The app ships built-in classics (Catppuccin, Monokai, Solarized) plus official p
   | <img src="images/shaw-baobao-codex-themes/dracula.svg" width="260" alt="Dracula"><br><sub>Dracula</sub> | <img src="images/shaw-baobao-codex-themes/nord.svg" width="260" alt="Nord"><br><sub>Nord</sub> | <img src="images/shaw-baobao-codex-themes/rose-pine.svg" width="260" alt="Rosé Pine"><br><sub>Rosé Pine</sub> |
 
 - [lafllamme/codex-themes](https://github.com/lafllamme/codex-themes) — TypeScript toolkit that converts raw terminal palettes (e.g. `.itermcolors` from iTerm2-Color-Schemes) into Codex-compatible JSON presets, with a [browsable site](https://codex-theme.pages.dev/). `MIT`
+- [Railly/tinte](https://github.com/Railly/tinte) — Agent-native design-system compiler and previewer with a Codex provider, useful for generating Codex themes alongside matching themes for other tools. `MIT`
+- [meownoid/meowtheme](https://github.com/meownoid/meowtheme) — Multi-target color-scheme generator with ready-made light and dark Codex Desktop outputs. `MIT`
+- [CosmicCoderDev/codex-themes](https://github.com/CosmicCoderDev/codex-themes) — Small bilingual collection of desktop share strings with an interactive skin preview and light/dark Muse, Nebula, and Hacker variants. `MIT`
 - [Kronosnxs/codex-theme-builder](https://github.com/Kronosnxs/codex-theme-builder) — Single-file web app for building and exporting custom Codex theme strings: tune light and dark variants, preview instantly, copy a ready-to-import string. `MIT`
 
   <img src="images/codex-theme-builder/builder.png" width="560" alt="Codex theme builder web app">
@@ -96,10 +100,16 @@ The app ships built-in classics (Catppuccin, Monokai, Solarized) plus official p
 - [miniLV/Anthropic-codex-theme](https://github.com/miniLV/Anthropic-codex-theme) — Anthropic-style light & dark themes, one-click import. `MIT`
 
   <img src="images/anthropic-codex-theme/anthropic.jpg" width="560" alt="Anthropic-style Codex theme">
+- [mundizzle/claude-theme](https://github.com/mundizzle/claude-theme) — Anthropic-inspired light and dark palettes for Codex, VS Code, Ghostty, and Zed, with paste-ready Codex import strings. `MIT`
+- [YuChenSSR/claude-warm-codex-app-theme](https://github.com/YuChenSSR/claude-warm-codex-app-theme) — Warm Claude-inspired light and dark Codex app themes, distributed as importable `codex-theme-v1` payloads. `MIT`
 - [chainshieldai/codex-cobalt-gold-theme](https://github.com/chainshieldai/codex-cobalt-gold-theme) — Cobalt2-inspired Codex desktop theme with safe runtime Markdown styling. `MIT`
 - [zh1665/cobalt-for-codex](https://github.com/zh1665/cobalt-for-codex) — Cobalt theme installer for Codex Desktop on Windows. `MIT`
 - [ziyue67/midnight-purple-2077-codex-theme](https://github.com/ziyue67/midnight-purple-2077-codex-theme) — High-contrast dark purple theme inspired by VS Code's Midnight Purple 2077, optimized for Chinese UI fonts.
 - [alexh/umi-codex-theme](https://github.com/alexh/umi-codex-theme) — "Umi", a single hand-crafted Codex theme.
+- [Arishawke/fadetouched-theme](https://github.com/Arishawke/fadetouched-theme) — Earthy dark teal-green palette with a generated Codex port alongside other editor and terminal targets. `MIT`
+- [FabianBeiner/lagoon-colors](https://github.com/FabianBeiner/lagoon-colors) — OKLab-designed Midnight Lagoon and Morning Lagoon themes with Codex import files and WCAG-oriented contrast. `MIT`
+- [jarith/everforest-night-codex-app](https://github.com/jarith/everforest-night-codex-app) — Everforest Night theme compiled into a ready-to-import Codex app string. `MIT`
+- [victorcrbt/sovietwave](https://github.com/victorcrbt/sovietwave) — SovietWave and Zhukov dark themes with Codex installers and matching ports for VS Code and Warp.
 - [hsnovel/codex-theme](https://github.com/hsnovel/codex-theme) — Simple high-contrast theme that is easy on the eyes. `GPL-3.0`
 
   <img src="images/hsnovel-codex-theme/preview.png" width="560" alt="hsnovel high-contrast Codex theme">
@@ -108,7 +118,7 @@ The app ships built-in classics (Catppuccin, Monokai, Solarized) plus official p
 
 ## Skins & Deep Customization
 
-Runtime skinning of the Codex desktop app via local CDP injection — no official binary or signature modification.
+Community tools for decorative backgrounds, glass surfaces, theme switching, and deeper UI tweaks. Most use local CDP injection without modifying the signed app; entries that patch the local installation are separated and labeled below.
 
 <div align="center">
 
@@ -119,6 +129,8 @@ Runtime skinning of the Codex desktop app via local CDP injection — no officia
 </div>
 
 ---
+
+### Runtime CDP Skins
 
 - [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) ⭐3.5k — External skins for the Codex desktop app; swap in any image as a full-window mood background while sidebar, cards, and input stay native. Ships 8 example skins, one-click restore, macOS + Windows installers. `MIT`
 
@@ -145,11 +157,22 @@ Runtime skinning of the Codex desktop app via local CDP injection — no officia
 
   <img src="images/codex-skin-switcher/skin-09.jpg" width="560" alt="codex-skin-switcher preview">
 
+- [tree0519/Codex-Dream-Skin-Forge](https://github.com/tree0519/Codex-Dream-Skin-Forge) — Dream Skin derivative with a Windows multi-theme pack, in-app switching, animated GIF skins, fixes, and AI-assisted theme creation. macOS/Windows.
+- [xnydl/codex-dream-skin](https://github.com/xnydl/codex-dream-skin) — Free macOS/Windows Dream Skin Skill with guided installation, switching, verification, and restoration.
+- [aiwenjie777/codex-skin-skill](https://github.com/aiwenjie777/codex-skin-skill) — Agent-operated one-image skin installer for macOS and Windows, with theme switching and rollback.
+- [Finderchangchang/codex-autoskin](https://github.com/Finderchangchang/codex-autoskin) — Agent-native skin engine that extracts a palette from one image, writes an inspectable theme spec and manifest, then applies or restores it through CDP. Windows. `MIT`
+- [fishcold789/Taffy-Codex-Theme-Studio](https://github.com/fishcold789/Taffy-Codex-Theme-Studio) — Taffy-inspired theme studio with replaceable images, 20 palettes, light/dark modes, acrylic, and liquid-glass styles. Windows.
+- [ismoshushi/codex-skinkit](https://github.com/ismoshushi/codex-skinkit) — Switchable built-in and custom themes for Codex Desktop on Windows, including verification and restore commands. `MIT`
+- [xiongwenhao112/raccoon-dream-skin](https://github.com/xiongwenhao112/raccoon-dream-skin) — Agent Skill with six built-in office-raccoon themes, conversational switching, and one-click restoration. `MIT`
 - [kongxcer555/codex-skin-builder](https://github.com/kongxcer555/codex-skin-builder) — A Codex Skill for building and customizing Codex skins. `MIT`
 
   <img src="images/codex-skin-builder/cloud-crane-study.jpg" width="560" alt="Cloud Crane Study skin">
 - [z0rgoyok/codex-theme-controller](https://github.com/z0rgoyok/codex-theme-controller) — macOS utility that applies color themes to Codex via the Chrome DevTools Protocol.
 - [Alhamdulillah-R/cyberpunk-codex-skin](https://github.com/Alhamdulillah-R/cyberpunk-codex-skin) — Cyberpunk/Edgerunners-flavored skin.
+
+### App Tweak Frameworks
+
+- [b-nnett/codex-plusplus](https://github.com/b-nnett/codex-plusplus) — Large cross-platform tweak system for Codex Desktop with UI modifications, extra settings surfaces, a native bridge, and a tweak SDK. Unlike the runtime-only skin tools above, it patches the local app installation; review its backup and restore workflow before use. `MIT`
 
 ### Historical
 
