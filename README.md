@@ -2,16 +2,6 @@
 
 > A curated list of themes, skins, galleries, and theming tools for [OpenAI Codex](https://developers.openai.com/codex/) — the Codex CLI, the Codex desktop app, and the Codex IDE extension.
 
-<div align="center">
-
-<h2 id="codexthemes"><a href="https://codexthemes.ai">CodexThemes</a></h2>
-<p><strong>Discover a large collection of beautiful themes and skins for the Codex desktop app.</strong></p>
-<p><a href="https://codexthemes.ai"><strong>Explore CodexThemes →</strong></a></p>
-
-</div>
-
----
-
 Codex theming happens on three surfaces:
 
 1. **Codex CLI (terminal TUI)** — 32 bundled syntax themes, switched with the `/theme` slash command (live preview) or `tui.theme = "..."` in `~/.codex/config.toml`. Custom themes are standard TextMate `.tmTheme` files dropped into `$CODEX_HOME/themes/` — thousands of existing Sublime Text / TextMate color schemes work out of the box.
@@ -20,7 +10,6 @@ Codex theming happens on three surfaces:
 
 ## Contents
 
-- [CodexThemes](#codexthemes)
 - [Official Resources](#official-resources)
 - [How Theming Works](#how-theming-works)
 - [Codex CLI Themes](#codex-cli-themes)
@@ -28,6 +17,7 @@ Codex theming happens on three surfaces:
   - [Galleries & Builders](#galleries--builders)
   - [Individual Themes](#individual-themes)
 - [Skins & Deep Customization](#skins--deep-customization)
+  - [CodexThemes](#codexthemes)
 - [Shared on X (Twitter)](#shared-on-x-twitter)
 - [Ports to Other Editors](#ports-to-other-editors)
 - [Articles & Guides](#articles--guides)
@@ -119,6 +109,16 @@ The app ships built-in classics (Catppuccin, Monokai, Solarized) plus official p
 ## Skins & Deep Customization
 
 Runtime skinning of the Codex desktop app via local CDP injection — no official binary or signature modification.
+
+<div align="center">
+
+<h3 id="codexthemes"><a href="https://codexthemes.ai">✨ CodexThemes</a></h3>
+<p><strong>Discover a large collection of beautiful themes and skins for the Codex desktop app.</strong></p>
+<p><a href="https://codexthemes.ai"><strong>Explore CodexThemes →</strong></a></p>
+
+</div>
+
+---
 
 - [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) ⭐3.5k — External skins for the Codex desktop app; swap in any image as a full-window mood background while sidebar, cards, and input stay native. Ships 8 example skins, one-click restore, macOS + Windows installers. `MIT`
 
