@@ -18,6 +18,7 @@ Codex theming happens on three surfaces:
   - [Individual Themes](#individual-themes)
 - [Skins & Deep Customization](#skins--deep-customization)
   - [CodexThemes](#codexthemes)
+  - [Galleries](#galleries)
 - [Shared on X (Twitter)](#shared-on-x-twitter)
 - [Ports to Other Editors](#ports-to-other-editors)
 - [Articles & Guides](#articles--guides)
@@ -129,6 +130,10 @@ Community tools for decorative backgrounds, glass surfaces, theme switching, and
 </div>
 
 ---
+
+### Galleries
+
+- [Codex Skins](https://www.codexskins.org) — Community gallery of one-click full-window wallpaper skins for the Codex desktop app, powered by the open-source Dream Skin engine (MIT). Browse presets, one-click install and one-click restore. macOS + Windows.
 
 ### Runtime CDP Skins
 
