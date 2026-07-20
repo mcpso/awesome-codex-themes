@@ -157,6 +157,8 @@ Community tools for decorative backgrounds, glass surfaces, theme switching, and
 
   <img src="images/codex-skin-switcher/skin-09.jpg" width="560" alt="codex-skin-switcher preview">
 
+- [CodexSkins](https://codexskins.shop) — Free store of 2560×1440 wallpaper skins for Dream Skin plus desktop pets in the official pet format (all nine animation states, validated packages, live animated previews); every item ships with a paste-into-Codex install prompt so the agent dresses itself. Assets CC-BY at [jessiebuilds/codexskins](https://github.com/jessiebuilds/codexskins). English/中文.
+
 - [tree0519/Codex-Dream-Skin-Forge](https://github.com/tree0519/Codex-Dream-Skin-Forge) — Dream Skin derivative with a Windows multi-theme pack, in-app switching, animated GIF skins, fixes, and AI-assisted theme creation. macOS/Windows.
 - [xnydl/codex-dream-skin](https://github.com/xnydl/codex-dream-skin) — Free macOS/Windows Dream Skin Skill with guided installation, switching, verification, and restoration.
 - [aiwenjie777/codex-skin-skill](https://github.com/aiwenjie777/codex-skin-skill) — Agent-operated one-image skin installer for macOS and Windows, with theme switching and rollback.
