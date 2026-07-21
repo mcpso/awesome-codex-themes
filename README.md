@@ -147,6 +147,8 @@ Community tools for decorative backgrounds, glass surfaces, theme switching, and
   |---|---|
   | <img src="images/codedrobe/desktop.jpg" width="400" alt="CodeDrobe desktop app"><br><sub>CodeDrobe Desktop</sub> | <img src="images/codedrobe/codex-01.jpg" width="400" alt="KUN Stage theme"><br><sub>KUN Stage theme</sub> |
 
+- [Codex Skin Gallery](https://codex-theme-gallery.howardhua.chatgpt.site/themes) — Public-safe Codex skin pack gallery with downloadable zip packs, theme.json files, sanitized previews, agent install prompts, and restore guidance. `MIT`
+
 - [HeiGeAi/heige-codex-skin-studio](https://github.com/HeiGeAi/heige-codex-skin-studio) ⭐82 — One-click skin switcher for Codex Desktop: "one image = one theme," 9 presets (Hatsune Miku, Genshin Impact, Wuthering Waves, Naruto, Love & Deepspace) plus color extraction from any custom image. English/中文. `MIT`
 
   | | |
