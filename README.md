@@ -128,6 +128,8 @@ Community tools for decorative backgrounds, glass surfaces, theme switching, and
 
 </div>
 
+- [Codex Skin Gallery](https://codex-theme-gallery.howardhua.chatgpt.site/?utm_source=mcpso-awesome-codex-themes&utm_medium=github&utm_campaign=awesome-list) — Verified public-safe Codex skin packs with sanitized previews, downloadable ZIPs, copyable agent install prompts, and restore guidance.
+
 ---
 
 ### Runtime CDP Skins
