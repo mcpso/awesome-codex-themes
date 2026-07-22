@@ -160,6 +160,7 @@ Community tools for decorative backgrounds, glass surfaces, theme switching, and
 - [tree0519/Codex-Dream-Skin-Forge](https://github.com/tree0519/Codex-Dream-Skin-Forge) — Dream Skin derivative with a Windows multi-theme pack, in-app switching, animated GIF skins, fixes, and AI-assisted theme creation. macOS/Windows.
 - [xnydl/codex-dream-skin](https://github.com/xnydl/codex-dream-skin) — Free macOS/Windows Dream Skin Skill with guided installation, switching, verification, and restoration.
 - [aiwenjie777/codex-skin-skill](https://github.com/aiwenjie777/codex-skin-skill) — Agent-operated one-image skin installer for macOS and Windows, with theme switching and rollback.
+- [ChannelerH/codex-skin-packs](https://github.com/ChannelerH/codex-skin-packs) — Public-safe Codex skin packs with downloadable zips, sanitized previews, an installable Skill, and restore guidance.
 - [Finderchangchang/codex-autoskin](https://github.com/Finderchangchang/codex-autoskin) — Agent-native skin engine that extracts a palette from one image, writes an inspectable theme spec and manifest, then applies or restores it through CDP. Windows. `MIT`
 - [fishcold789/Taffy-Codex-Theme-Studio](https://github.com/fishcold789/Taffy-Codex-Theme-Studio) — Taffy-inspired theme studio with replaceable images, 20 palettes, light/dark modes, acrylic, and liquid-glass styles. Windows.
 - [ismoshushi/codex-skinkit](https://github.com/ismoshushi/codex-skinkit) — Switchable built-in and custom themes for Codex Desktop on Windows, including verification and restore commands. `MIT`
