@@ -142,6 +142,7 @@ Community tools for decorative backgrounds, glass surfaces, theme switching, and
   | <img src="images/codex-dream-skin/skin-07.jpg" width="400" alt="Hatsune Miku"><br><sub>Hatsune Miku</sub> | <img src="images/codex-dream-skin/skin-08.jpg" width="400" alt="Stage Black-Gold"><br><sub>Stage Black-Gold</sub> |
 
 - [CodeDrobe/codex-skill](https://github.com/CodeDrobe/codex-skill) ⭐88 — Open-source Codex theming Skill, AI theme generator, and cross-platform runtime for custom desktop themes; exports shareable `.codex-theme` files. Install with `npx skills add anhao/codedrobe-codex-skill`. macOS/Windows. `Apache-2.0`
+- [WendongAI/gptskin-skill](https://github.com/WendongAI/gptskin-skill) — Image-backed themes for the Codex desktop app: turn any image into a full-window Codex theme, 6 free presets, one-command apply and restore, macOS + Windows. `MIT`
 
   | | |
   |---|---|
