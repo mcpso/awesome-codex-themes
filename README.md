@@ -141,6 +141,8 @@ Community tools for decorative backgrounds, glass surfaces, theme switching, and
   | <img src="images/codex-dream-skin/skin-05.jpg" width="400" alt="Inspiration"><br><sub>Inspiration</sub> | <img src="images/codex-dream-skin/skin-06.jpg" width="400" alt="Purple Night"><br><sub>Purple Night</sub> |
   | <img src="images/codex-dream-skin/skin-07.jpg" width="400" alt="Hatsune Miku"><br><sub>Hatsune Miku</sub> | <img src="images/codex-dream-skin/skin-08.jpg" width="400" alt="Stage Black-Gold"><br><sub>Stage Black-Gold</sub> |
 
+- [ChannelerH/codex-skin-packs](https://github.com/ChannelerH/codex-skin-packs) — Verified Codex skin packs with sanitized previews, release ZIPs, DreamSkin import packages, restore guidance, and copyable agent install prompts. `MIT`
+
 - [CodeDrobe/codex-skill](https://github.com/CodeDrobe/codex-skill) ⭐88 — Open-source Codex theming Skill, AI theme generator, and cross-platform runtime for custom desktop themes; exports shareable `.codex-theme` files. Install with `npx skills add anhao/codedrobe-codex-skill`. macOS/Windows. `Apache-2.0`
 
   | | |
