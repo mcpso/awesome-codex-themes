@@ -149,6 +149,8 @@ Community tools for decorative backgrounds, glass surfaces, theme switching, and
 
 - [HeiGeAi/heige-codex-skin-studio](https://github.com/HeiGeAi/heige-codex-skin-studio) ⭐82 — One-click skin switcher for Codex Desktop: "one image = one theme," 9 presets (Hatsune Miku, Genshin Impact, Wuthering Waves, Naruto, Love & Deepspace) plus color extraction from any custom image. English/中文. `MIT`
 
+- [dehuaye1993-dot/codex-skin](https://github.com/dehuaye1993-dot/codex-skin) — Reskin the Codex desktop app from a single image: palette, backdrop and light/dark appearance are derived automatically, native controls stay fully interactive, and the stock UI is one menu entry away. Six built-in presets, trilingual UI (EN/DE/中文), deterministic `.skill` package for agent installs, runtime CDP injection — no app.asar or signature changes. macOS + Windows. `MIT`
+
   | | |
   |---|---|
   | <img src="images/heige-skin-studio/miku-switcher-live.jpg" width="400" alt="Miku theme with switcher menu"><br><sub>Hatsune Miku + switcher</sub> | <img src="images/heige-skin-studio/genshin-night-live.jpg" width="400" alt="Genshin starry night theme"><br><sub>Genshin starry night</sub> |
