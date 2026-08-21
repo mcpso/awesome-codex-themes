@@ -75,6 +75,7 @@ The app ships built-in classics (Catppuccin, Monokai, Solarized) plus official p
 ### Galleries & Builders
 
 - [DexThemes](https://www.dexthemes.com/) — Community site to discover and create Codex themes: searchable catalog, dark/light preview with accent controls, copyable import strings. By [@daeshawn](https://x.com/daeshawn).
+- [Codex Theme Builder](https://codextheme.tools) — Free browser theme builder for OpenAI Codex with live preview and CSS token export.
 - [samuxbuilds/codex-themes](https://github.com/samuxbuilds/codex-themes) — Interactive gallery of 1000+ themes with live preview and one-click export ([live site](https://codex.instantlandingpages.xyz)): editor presets (Dracula, Nord, Tokyo Night, GitHub), brand palettes (Vercel, Stripe, Linear), color families, gradients, and accessibility/WCAG variants. `MIT`
 
   <img src="images/samuxbuilds-codex-themes/gallery.png" width="560" alt="samuxbuilds codex-themes gallery">
