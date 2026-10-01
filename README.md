@@ -115,6 +115,11 @@ The app ships built-in classics (Catppuccin, Monokai, Solarized) plus official p
   <img src="images/hsnovel-codex-theme/preview.png" width="560" alt="hsnovel high-contrast Codex theme">
 - [leiniaozl229/codex-claude-theme](https://github.com/leiniaozl229/codex-claude-theme) — Local macOS Codex theme patcher with a Claude-inspired visual style. `MIT`
 - [LiteraryUniverse/omarchy-codex-theme](https://github.com/LiteraryUniverse/omarchy-codex-theme) — Omarchy-styled Codex theme.
+- [pustota-theme/pustota.codex](https://github.com/pustota-theme/pustota.codex) — Minimalist light and dark Codex Desktop themes adapted from Pustota, with ready-to-import payloads. `MIT`
+
+  | | |
+  |---|---|
+  | <img src="images/pustota-codex/dark.png" width="400" alt="Pustota for Codex dark theme"><br><sub>Dark</sub> | <img src="images/pustota-codex/light.png" width="400" alt="Pustota for Codex light theme"><br><sub>Light</sub> |
 
 ## Skins & Deep Customization
 
